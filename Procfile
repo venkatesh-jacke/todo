@@ -1,1 +1,1 @@
-web: gunicorn todolist.wsgi --log-file 
+gunicorn todolist.wsgi:application --bind 0.0.0.0:8001
